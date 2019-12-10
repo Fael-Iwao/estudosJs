@@ -5,26 +5,24 @@ var names = ["Diego", "Gabriel", "Lucas"];
 
 var container = document.querySelector('div.container')
 var list = window.document.createElement('ul');
+var input = document.querySelector('input[name=nome]')
 
-function setNameToList(names){
+
+function renderList(){
+    list.innerHTML = '';
     for(name of names){
-        list.appendChild(renderList(name))
+        var li = window.document.createElement('li');
+        var text = document.createTextNode(name)
+        li.appendChild(text)
+        list.appendChild(li)
     }
     container.appendChild(list)
 }
 
-function renderList(name){
-    var li = window.document.createElement('li');
-        li.innerText = name
-    return li
-}
-
 function addName(){
-    var input = document.querySelector('input[name=nome]')
-   
-    var name = renderList(input.value)
-    list.appendChild(name)
+    names.push(input.value)
     input.value = '';
+    renderList()
 }
 
-setNameToList(names)
+renderList()
