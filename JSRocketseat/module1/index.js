@@ -6,11 +6,10 @@ var address = {
     district: "Centro",
     city: "São Paulo",
     state: "SP"
-   };
+};
 
    
 function returnAddress(obj){
-
     return `O usuário mora em ${obj.city} / ${obj.state}, no bairro ${obj.district}, no endereço "${obj.street}" com
     nº ${obj.number}`;
 }
@@ -29,7 +28,6 @@ function evenNumbers(firstNumber, lastNumber){
         }
         firstNumber ++;
     }
-    
 }
 
 
@@ -41,7 +39,6 @@ function evenNumbers(firstNumber, lastNumber){
 function haveSkill(skills) {
    return (skills.indexOf('Javascript') != -1) ? true : false;
 }
-
 
 var skills = ["Javascript", "ReactJS", "React Native"];
 
@@ -64,8 +61,6 @@ function experience(year) {
     }else{
         return 'Jedi Master';
     }
-
-
 }
 var yearsStudy = 7;
 
@@ -89,7 +84,7 @@ var users = [
 
 function returnUser(users){
     for(user of users){
-        console.log(`O ${user.name} possui as Habilidades: ${user.skills.join(', ')}.cls`)
+        console.log(`O ${user.name} possui as Habilidades: ${user.skills.join(', ')}.`)
     }
 }
    
