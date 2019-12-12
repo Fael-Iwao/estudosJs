@@ -1,3 +1,8 @@
+// all exercises were taken from this PDF: https://skylab.rocketseat.com.br/api/files/1566499161406.pdf
+// exercises solved by: Rafael Iwao
+// github: https://github.com/Fael-Iwao
+
+
 //-------------------// EXERCICES 1 AND 2//-------------------//
 
 var container = document.querySelector('div.container')

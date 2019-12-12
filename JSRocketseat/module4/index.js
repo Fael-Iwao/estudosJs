@@ -1,3 +1,7 @@
+// all exercises were taken from this PDF: https://skylab.rocketseat.com.br/api/files/1566499182493.pdf
+// exercises solved by: Rafael Iwao
+// github: https://github.com/Fael-Iwao
+
 var button = window.document.querySelector('#sendName');
 var container = document.querySelector('#container')
 var list = window.document.createElement('ul');
