@@ -44,7 +44,12 @@ function getInformationToGitHub(name){
         container.appendChild(list)
     })
     .catch(function(error){
-        error
+        list.innerHTML = '';
+        var li = window.document.createElement('li');
+            var text = document.createTextNode(error)
+            li.appendChild(text)
+            list.appendChild(li)
+            container.appendChild(list)
     })
 }
 
