@@ -1,0 +1,135 @@
+.github-user{
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+.github-user .content {
+    display: flex;
+    /* justify-content: space-between; */
+    margin-bottom: 20px;
+}
+.container-img{
+    width: 200px;
+    margin: 0 10px;
+    padding: 0px;
+    
+}
+.container-info{
+    width: 500px;
+    margin: 0 10px;
+    padding: 0;
+    padding-left: 15px;
+    border-left: 1px solid #cecece;
+    
+}
+.footer-content{
+    width: 100%;
+    border-top: 1px solid #cecece;
+    margin-top: 10px;
+}
+.github-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #cecece;
+    padding: 3px;
+    box-shadow: 0 0 15px #ededed;
+
+
+   
+}
+
+.github-name{
+    text-align: center;
+    color: #666
+}
+
+.github-login{
+    font-size: 20px;
+    color: #666;
+    border-bottom: 1px solid #cecece;
+    padding-bottom: 10px;
+}
+
+.github-url{
+    text-decoration:none;
+    font-weight: bold;
+    color: #007d1d;
+}
+.github-url:hover{
+    color: #00400f;
+}
+.github-user article{
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.github-user article p {
+    font-size: 16px;
+    color: #777;
+    margin-top: 15px;
+    line-height: 24px;
+}
+.github-button{
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #007d1d;
+    background: transparent;
+    font-size: 16px;
+    color: #007d1d;
+    margin-top: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:  all .2s;
+    padding:8px;
+    cursor: pointer;
+}
+.content[hidden], .footer-content[hidden]{
+    display:none;
+}
+.github-button:hover {
+    background: #007d1d;
+    color: #fff;
+}
+
+.search-box{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-input{
+    margin: 10px 6px;
+    height: 35px;
+    width: 500px;
+    border-radius: 5px;
+    border: 1px solid #555;
+    font-size: 22px;
+    padding: 4px;
+
+}
+.search-button{
+    width: 150px;
+    margin: 10px 1px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background: #007d1d;
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+}
+.search-button:hover{
+   opacity: .7;
+}
+.search-button:active{
+    opacity: 1;
+    background: #00310b;
+}
