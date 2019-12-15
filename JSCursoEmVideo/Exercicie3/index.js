@@ -6,7 +6,6 @@ const response = window.document.getElementById('response');
 
 
 validate.onclick = () => {
-    result = [];
     var init = Number(elInit.value);
     var end = Number(elEnd.value);
     var step = Number(elStep.value);
