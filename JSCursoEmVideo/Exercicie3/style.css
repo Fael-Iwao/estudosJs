@@ -20,16 +20,10 @@ section{
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.493);
 }
 div{
-    text-align: center;
+    text-align: left;
     padding: 10px;
 }
-#formData{
-    text-align: left;
-}
-#img{
-    border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.513);
-}
+
 
 input[type='number']{
     width: 100%;

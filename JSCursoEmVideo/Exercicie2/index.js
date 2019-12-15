@@ -16,24 +16,23 @@ validate.onclick = () => {
     var age = actualYear - year.value;
     var actualGender;
     var image = document.getElementById('img');
-        image.setAttribute('id', 'img');
    
 
     if(gender[0].checked){
         actualGender = 'um Homem';
         if( age >= 0 && age < 10){
-            image.setAttribute('src', 'img/male-child.png')
+            image.setAttribute('src', 'img/male-child.png');
         }
         else if( age < 21 ){
-            image.setAttribute('src', 'img/male-young.png')
+            image.setAttribute('src', 'img/male-young.png');
 
         }
         else if( age < 50){
-            image.setAttribute('src', 'img/male-adult.png')
+            image.setAttribute('src', 'img/male-adult.png');
 
         }
         else{
-            image.setAttribute('src', 'img/male-old.png')
+            image.setAttribute('src', 'img/male-old.png');
 
         }
 
@@ -42,18 +41,18 @@ validate.onclick = () => {
         actualGender = 'uma Mulher';
 
         if( age >= 0 && age < 10){
-            image.setAttribute('src', 'img/woman-child.png')
+            image.setAttribute('src', 'img/woman-child.png');
         }
         else if( age < 21 ){
-            image.setAttribute('src', 'img/woman-young.png')
+            image.setAttribute('src', 'img/woman-young.png');
 
         }
         else if( age < 50){
-            image.setAttribute('src', 'img/woman-adult.png')
+            image.setAttribute('src', 'img/woman-adult.png');
 
         }
         else{
-            image.setAttribute('src', 'img/woman-old.png')
+            image.setAttribute('src', 'img/woman-old.png');
 
         }
 
